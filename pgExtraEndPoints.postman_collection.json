@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "041f299d-6421-4dfc-b621-5ddd14f5b997",
+		"name": "pgExtraEndPoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getIndexSize",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nameDB\": \"tets\",\n    \"password\": \"1234678\",\n    \"port\": \"5432\",\n    \"host\": \"test\",\n    \"userPsql\": \"test\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/pg-extra/getIndexSize",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pg-extra",
+						"getIndexSize"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getIndexCacheHit",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nameDB\": \"tets\",\n    \"password\": \"1234678\",\n    \"port\": \"5432\",\n    \"host\": \"test\",\n    \"userPsql\": \"test\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/pg-extra/getIndexCacheHit",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pg-extra",
+						"getIndexCacheHit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getUnusedIndexes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nameDB\": \"tets\",\n    \"password\": \"1234678\",\n    \"port\": \"5432\",\n    \"host\": \"test\",\n    \"userPsql\": \"test\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/pg-extra/getUnusedIndexes",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pg-extra",
+						"getUnusedIndexes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getNullIndexes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nameDB\": \"tets\",\n    \"password\": \"1234678\",\n    \"port\": \"5432\",\n    \"host\": \"test\",\n    \"userPsql\": \"test\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/pg-extra/getNullIndexes",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pg-extra",
+						"getNullIndexes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getVacuumStats",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nameDB\": \"tets\",\n    \"password\": \"1234678\",\n    \"port\": \"5432\",\n    \"host\": \"test\",\n    \"userPsql\": \"test\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/pg-extra/getVacuumStats",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pg-extra",
+						"getVacuumStats"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
